@@ -48,3 +48,12 @@
  html {
    scroll-behavior: smooth;
  }
+
+ .footerLogo {
+     width: 80px;
+ }
+ footer {
+     display: flex;
+     justify-content: right;
+     margin-bottom: 10px;
+ }
