@@ -1,13 +1,15 @@
-.header {
-	top:20px;
-}
+ html {
+   scroll-behavior: smooth;
+   background-color: #F2D2BD;
+
+ }
 
 * {
     box-sizing: border-box;
   }
 
-.body {
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Roboto', monospace, sans-serif;
     min-height: 100vh;
     margin: 0; padding: 0;
     display: flex;
@@ -15,18 +17,17 @@
     justify-content: space-between;
 }
 
+.header {
+	top:20px;
+}
+
 .main {
 	padding-top:100px;
 }
 
-.posLeft {
-	margin-left:-66%;
+.myPhoto {
+    border-radius: 0.5cm;
 }
-
-.posCenter {
-	margin-left:33%;
-}
-
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -37,23 +38,34 @@
    justify-content: flex-end;
    align-items: center;
    list-style: none;
+   text-decoration: none;
  }
 
-.nav-link {
-  padding: 0 20px;
-  line-height: 50px;
-  transition: .3s;
-}
-
- html {
-   scroll-behavior: smooth;
+ .nav-link {
+   padding: 0 20px;
+   line-height: 50px;
+   transition: .3s;
+   text-decoration: none;
  }
 
  .footerLogo {
      width: 80px;
  }
+
  footer {
      display: flex;
      justify-content: right;
      margin-bottom: 10px;
+ }
+
+ .section {
+    text-align: left;
+ }
+
+ footer p {
+      margin: 10px;
+  }
+
+ .courseLink {
+   text-decoration: none;
  }
